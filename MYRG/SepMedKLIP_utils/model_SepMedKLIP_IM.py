@@ -79,7 +79,7 @@ class SepMedKLIP_V5(SepMedKLIP):
 
     
     def forward(self, 
-                image=None, coarse_labels=None, loc_labels=None, full_labels=None, loc_weight=None, dis_weight=None,
+                image=None, coarse_labels=None, loc_labels=None, full_labels=None, 
                 sample_index = None, missing_flag=None, compute_loss:bool=True,
                 is_train = True, no_cl= False, exclude_class= False, **kwargs):
                 
